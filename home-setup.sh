@@ -75,6 +75,9 @@ cp -f $PDK_ROOT/$PDK/libs.ref/sky130_fd_pr/gds/sky130_fd_pr.gds $HOME/.klayout/l
 cp -f $PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds $HOME/.klayout/libraries/
 cp -f $PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds $HOME/.klayout/libraries/
 
+# Remove this when ITC upgrades python libraries: 
+python3.9 -m pip install --upgrade docopt pandas gdsfactory
+
 # Finished
 # --------
 echo ""
