@@ -38,6 +38,7 @@ fi
 # -----------------
 {
 	echo "set num_threads=$(nproc)"
+ 	echo "set skywaterpdk"
 	echo "set ngbehavior=hsa"
 	echo "set ng_nomodcheck"
 } > "$HOME/.spiceinit"
