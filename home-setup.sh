@@ -37,7 +37,7 @@ fi
 # Create .spiceinit
 # -----------------
 {
-	echo "set num_threads=$(nproc)"
+	echo "set num_threads=4"
  	echo "set skywaterpdk"
 	echo "set ngbehavior=hsa"
 	echo "set ng_nomodcheck"
